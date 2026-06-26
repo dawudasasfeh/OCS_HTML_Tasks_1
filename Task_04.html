@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task4</title>
+</head>
+<body>
+    <header>
+        <h1>Fill in your information</h1>
+    </header>
+    <main>
+        <form action="index.php" method="POST" target="_self" autocomplete>
+            <fieldset>
+                <legend>Form</legend>
+                <section>
+                <label>First Name:</label>
+                <br>
+                <input type="text">
+                <br>
+                <label>Last Name:</label>
+                <br>
+                <input type="text">
+                <br>
+                <label>Email:</label>
+                <br>
+                <input type="email">
+                <br>
+                <br>
+                </section>
+
+                <section>
+                    <p><strong>Your Gender</strong></p>
+                    <input type="radio" name="gender" value="male">Male
+                    <input type="radio" name="gender" value="female">female
+                </section>
+                <section>
+                    <p><strong>Favorite Subjects</strong></p>
+                    <input type="checkbox" value="c++">C++
+                    <input type="checkbox" value="java">Java
+                    <input type="checkbox" value="c#">C#
+                    <input type="checkbox" value="php">PHP
+                    <input type="checkbox" value="sql">SQL
+                </section>
+                <section>
+                    <p><strong>Your City</strong></p>
+                    <label>City:</label>
+                    <select>
+                        <option value="irbid">Irbid</option>
+                        <option value="amman">Amman</option>
+                        <option value="karak">Karak</option>
+                        <option value="salt">Salt</option>
+                    </select>
+                </section>
+                <br>
+                <label>Upload Image:</label>
+                <input type="file">
+                <br>
+                <br>
+                <section>
+                    <label>Write About yourself:</label>
+                    <br>
+                    <br>
+                    <textarea rows="5" cols="50" placeholder="Write Here"></textarea>
+                </section>
+                <input type="submit">
+            </fieldset>
+        </form>
+    </main>
+</body>
+</html>
