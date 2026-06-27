@@ -66,36 +66,58 @@
                 <input type="submit">
             </fieldset>
         </form>
+        <br><br>
+      <form action="index.php" method="post" target="_self" autocomplete>
+    <table>
+        <tr>
+            <td><label>Name:</label></td>
+            <td><input type="text" size="35"></td>
+        </tr>
 
-        <form action="index.php" method="post">
-            <label>Name:</label>
-                <input type="text">
-                <br>
-                <label>Address:</label>
-                <input type="text">
-                <br>
-                <label>City:</label>
-                <input type="text">
-                <br>
-                <label>State:</label>
-                <input type="text">
-                <br>
-                <label>Zip:</label>
-                <input type="text">
-                <br>
-                <label>Magazine:</label>
-                <select>
-                    <option value="Newsweek">Newsweek</option>
-                    <option value="1">1</option>
-                    <option value="2">2</option>
+        <tr>
+            <td><label>Address:</label></td>
+            <td><input type="text" size="35"></td>
+        </tr>
+
+        <tr>
+            <td><label>City:</label></td>
+            <td><input type="text" size="35"></td>
+        </tr>
+
+        <tr>
+            <td><label>State:</label></td>
+            <td><input type="text" size="15"></td>
+        </tr>
+
+        <tr>
+            <td><label>Zip:</label></td>
+            <td><input type="text" size="15"></td>
+        </tr>
+
+        <tr>
+            <td><label>Magazine:</label></td>
+            <td>
+                <select name="magazine">
+                    <option value="newsweek">Newsweek</option>
+                    <option value="time">Time</option>
+                    <option value="people">People</option>
                 </select>
-                <br>
-                <label>Subscription</label>
-                <input type="radio" value="1year">1 year
-                <input type="radio" value="2years">2 years
-                <br>
-                <button type="submit">Send Your Order</button>
-        </form>
+            </td>
+        </tr>
+
+        <tr>
+            <td><label>Subscription:</label></td>
+            <td>
+                <input type="radio" name="subscription" value="1year" checked> 1 year
+                <input type="radio" name="subscription" value="2years"> 2 years
+            </td>
+        </tr>
+
+        <tr>
+            <td><button type="submit">Send Your Order</button></td>
+        </tr>
+    </table>
+</form>
     </main>
 </body>
 </html>
