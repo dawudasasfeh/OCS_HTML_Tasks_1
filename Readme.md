@@ -1,1 +1,1 @@
-HTML Tasks 1-7
+HTML Tasks 1-7.
